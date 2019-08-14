@@ -80,7 +80,7 @@ class DockerCommand {
     // Pull the image from docker repo. This will be no-op if the image already exists.
     try {
       runShortCommand(
-          ImmutableList.<String>builder().add(dockerExecutable).add("pull").add(imageTag).build());
+          ImmutableList.<String>builder().add("sudo").add(dockerExecutable).add("pull").add(imageTag).build());
     } catch (IOException | TimeoutException | InterruptedException e) {
       if (LOG.isDebugEnabled()) {
         LOG.debug("Unable to pull docker image {}", imageTag, e);
