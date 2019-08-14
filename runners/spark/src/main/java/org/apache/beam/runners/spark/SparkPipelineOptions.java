@@ -38,12 +38,19 @@ public interface SparkPipelineOptions
     extends PipelineOptions, StreamingOptions, ApplicationNameOptions {
 
   String DEFAULT_MASTER_URL = "local[4]";
+  String DEFAULT_FILE_SYSTEM = "hdfs://emr-header-1.cluster-66298:9000";
 
   @Description("The url of the spark master to connect to, (e.g. spark://host:port, local[4]).")
   @Default.String(DEFAULT_MASTER_URL)
   String getSparkMaster();
 
   void setSparkMaster(String master);
+
+  @Description("Shared file system.")
+  @Default.String(DEFAULT_FILE_SYSTEM)
+  String getFileSystem();
+
+  void setFileSystem(String fileSystem);
 
   @Description("Batch interval for Spark streaming in milliseconds.")
   @Default.Long(500)

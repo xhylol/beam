@@ -48,6 +48,13 @@ public class SparkJobServerDriver extends JobServerDriver {
     String getSparkMasterUrl() {
       return this.sparkMasterUrl;
     }
+
+    @Option(name = "--file-system", usage = "The shared file system")
+    private String fileSystem = SparkPipelineOptions.DEFAULT_FILE_SYSTEM;
+
+    String getFileSystem() {
+      return this.fileSystem; 
+    }
   }
 
   public static void main(String[] args) {

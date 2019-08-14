@@ -64,6 +64,10 @@ public class SparkJobInvoker extends JobInvoker {
       sparkOptions.setSparkMaster(configuration.getSparkMasterUrl());
     }
 
+    if (sparkOptions.getFileSystem().equals(SparkPipelineOptions.DEFAULT_FILE_SYSTEM)) {
+      sparkOptions.setFileSystem(configuration.getFileSystem());
+     }
+
     // Options can't be translated to proto if runner class is unresolvable, so set it to null.
     sparkOptions.setRunner(null);
 

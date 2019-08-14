@@ -24,6 +24,7 @@ import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaSparkContext;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import java.util.Arrays;
 
 /** The Spark context factory. */
 public final class SparkContextFactory {
@@ -87,6 +88,19 @@ public final class SparkContextFactory {
         // set master if not set.
         conf.setMaster(contextOptions.getSparkMaster());
       }
+      if (conf.contains("spark.master") && conf.get("spark.master").startsWith("yarn-")) {
+        switch(conf.get("spark.master")) {
+            case "yarn-cluster":
+                conf.set("spark.master", "yarn");
+                conf.set("spark.submit.deployMode", "cluster");
+                break;
+            case "yarn-client":
+                conf.set("spark.master", "yarn");
+                conf.set("spark.submit.deployMode", "client");
+                break;
+            default :
+        }
+      }
 
       if (contextOptions.getFilesToStage() != null && !contextOptions.getFilesToStage().isEmpty()) {
         conf.setJars(contextOptions.getFilesToStage().toArray(new String[0]));
@@ -95,6 +109,7 @@ public final class SparkContextFactory {
       conf.setAppName(contextOptions.getAppName());
       // register immutable collections serializers because the SDK uses them.
       conf.set("spark.kryo.registrator", SparkRunnerKryoRegistrator.class.getName());
+      conf.set("spark.hadoop.fs.default.name",contextOptions.getFileSystem());
       return new JavaSparkContext(conf);
     }
   }

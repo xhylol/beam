@@ -375,7 +375,7 @@ class BeamModulePlugin implements Plugin<Project> {
     // non-declared dependency, since these can break users (as in BEAM-6558)
     //
     // Though this is Java-specific, it is required to be applied to the root
-    // project due to implementation-details of the plugin. It can be enabled/disabled
+    // project due to implemeentation-details of the plugin. It can be enabled/disabled
     // via JavaNatureConfiguration per project. It is disabled by default until we can
     // make all of our deps good.
     project.apply plugin: "ca.cutterslade.analyze"
@@ -413,7 +413,7 @@ class BeamModulePlugin implements Plugin<Project> {
     def google_cloud_spanner_version = "1.6.0"
     def grpc_version = "1.17.1"
     def guava_version = "20.0"
-    def hadoop_version = "2.7.3"
+    def hadoop_version = "2.7.2"
     def hamcrest_version = "2.1"
     def jackson_version = "2.9.9"
     def jaxb_api_version = "2.2.12"
@@ -424,7 +424,7 @@ class BeamModulePlugin implements Plugin<Project> {
     def proto_google_common_protos_version = "1.12.0"
     def protobuf_version = "3.6.0"
     def quickcheck_version = "0.8"
-    def spark_version = "2.4.3"
+    def spark_version = "2.2.1"
 
     // A map of maps containing common libraries used per language. To use:
     // dependencies {
@@ -462,6 +462,7 @@ class BeamModulePlugin implements Plugin<Project> {
         bigdataoss_util                             : "com.google.cloud.bigdataoss:util:$google_cloud_bigdataoss_version",
         bigtable_client_core                        : "com.google.cloud.bigtable:bigtable-client-core:1.8.0",
         bigtable_protos                             : "com.google.api.grpc:grpc-google-cloud-bigtable-v2:$generated_grpc_beta_version",
+        byte_buddy                                  : "net.bytebuddy:byte-buddy:1.9.3",
         cassandra_driver_core                       : "com.datastax.cassandra:cassandra-driver-core:$cassandra_driver_version",
         cassandra_driver_mapping                    : "com.datastax.cassandra:cassandra-driver-mapping:$cassandra_driver_version",
         commons_codec                               : "commons-codec:commons-codec:1.10",
@@ -552,6 +553,7 @@ class BeamModulePlugin implements Plugin<Project> {
         slf4j_log4j12                               : "org.slf4j:slf4j-log4j12:1.7.25",
         snappy_java                                 : "org.xerial.snappy:snappy-java:1.1.4",
         spark_core                                  : "org.apache.spark:spark-core_2.11:$spark_version",
+        spark_yarn                                  : "org.apache.spark:spark-yarn_2.11:$spark_version",
         spark_network_common                        : "org.apache.spark:spark-network-common_2.11:$spark_version",
         spark_streaming                             : "org.apache.spark:spark-streaming_2.11:$spark_version",
         stax2_api                                   : "org.codehaus.woodstox:stax2-api:3.1.4",
@@ -831,6 +833,7 @@ class BeamModulePlugin implements Plugin<Project> {
       project.apply plugin: "net.ltgt.apt-eclipse"
 
       // Enables a plugin which can apply code formatting to source.
+      // TODO(https://issues.apache.org/jira/browse/BEAM-4394): Should this plugin be enabled for all projects?
       project.apply plugin: "com.diffplug.gradle.spotless"
       // scan CVE
       project.apply plugin: "net.ossindex.audit"

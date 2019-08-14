@@ -91,6 +91,7 @@ class DockerCommand {
     // TODO: Validate args?
     return runShortCommand(
         ImmutableList.<String>builder()
+            .add("sudo")
             .add(dockerExecutable)
             .add("run")
             .add("-d")
@@ -111,6 +112,7 @@ class DockerCommand {
     // TODO: Validate args?
     return runShortCommand(
             ImmutableList.<String>builder()
+                .add("sudo")
                 .add(dockerExecutable)
                 .add("inspect")
                 .add("-f")
@@ -131,7 +133,7 @@ class DockerCommand {
     checkArgument(
         CONTAINER_ID_PATTERN.matcher(containerId).matches(),
         "Container ID must be a 64-character hexadecimal string");
-    runShortCommand(Arrays.asList(dockerExecutable, "kill", containerId));
+    runShortCommand(Arrays.asList("sudo", dockerExecutable, "kill", containerId));
   }
 
   /** Run the given command invocation and return stdout as a String. */
