@@ -109,6 +109,7 @@ public final class SparkContextFactory {
       conf.setAppName(contextOptions.getAppName());
       // register immutable collections serializers because the SDK uses them.
       conf.set("spark.kryo.registrator", SparkRunnerKryoRegistrator.class.getName());
+      // specify the path to upload the spark lib and conf shared in spark cluster 
       conf.set("spark.hadoop.fs.default.name",contextOptions.getFileSystem());
       return new JavaSparkContext(conf);
     }

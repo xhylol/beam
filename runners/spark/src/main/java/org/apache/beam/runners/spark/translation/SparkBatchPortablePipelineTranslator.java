@@ -109,9 +109,9 @@ public class SparkBatchPortablePipelineTranslator {
     translatorMap.put(
         PTransformTranslation.READ_TRANSFORM_URN,
         SparkBatchPortablePipelineTranslator::translateRead);
-    translatorMap.put(
+    /*translatorMap.put(
         PTransformTranslation.RESHUFFLE_URN,
-        SparkBatchPortablePipelineTranslator::translateReshuffle);
+        SparkBatchPortablePipelineTranslator::translateReshuffle);*/
     this.urnToTransformTranslator = translatorMap.build();
   }
 
@@ -387,7 +387,7 @@ public class SparkBatchPortablePipelineTranslator {
     context.pushDataset(getOutputId(transformNode), new BoundedDataset<>(input));
   }
 
-  private static <K, V> void translateReshuffle(
+  /*private static <K, V> void translateReshuffle(
       PTransformNode transformNode, RunnerApi.Pipeline pipeline, SparkTranslationContext context) {
     String inputId = getInputId(transformNode);
     JavaRDD<WindowedValue<KV<K, V>>> inRDD =
@@ -404,7 +404,7 @@ public class SparkBatchPortablePipelineTranslator {
     JavaRDD<WindowedValue<KV<K, V>>> reshuffled =
         GroupCombineFunctions.reshuffle(inRDD, keyCoder, wvCoder);
     context.pushDataset(getOutputId(transformNode), new BoundedDataset<>(reshuffled));
-  }
+  }*/
 
   @Nullable
   private static Partitioner getPartitioner(SparkTranslationContext context) {
