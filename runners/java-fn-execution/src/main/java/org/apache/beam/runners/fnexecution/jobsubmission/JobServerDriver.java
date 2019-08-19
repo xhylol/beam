@@ -71,17 +71,17 @@ public abstract class JobServerDriver implements Runnable {
     @Option(
         name = "--job-port",
         usage = "The job service port. 0 to use a dynamic port. (Default: 8099)")
-    private int port = 8099;
+    private int port = 8102;
 
     @Option(
         name = "--artifact-port",
         usage = "The artifact service port. 0 to use a dynamic port. (Default: 8098)")
-    private int artifactPort = 8098;
+    private int artifactPort = 8101;
 
     @Option(
         name = "--expansion-port",
         usage = "The Java expansion service port. 0 to use a dynamic port. (Default: 8097)")
-    private int expansionPort = 8097;
+    private int expansionPort = 8100;
 
     @Option(name = "--artifacts-dir", usage = "The location to store staged artifact files")
     private String artifactStagingPath =
