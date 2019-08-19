@@ -1,0 +1,3 @@
+from registry.cn-beijing.aliyuncs.com/yilan_resys_tfx/beam_python:v1.0
+add ./localfilesystem.py /usr/local/lib/python2.7/site-packages/apache_beam/io/localfilesystem.py
+add ./sdk_worker_main.py /usr/local/lib/python2.7/site-packages/apache_beam/runners/worker/sdk_worker_main.py
