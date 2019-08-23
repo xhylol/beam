@@ -59,7 +59,7 @@ public interface SparkPipelineOptions
   void setBatchIntervalMillis(Long batchInterval);
 
   @Description("Batch default storage level")
-  @Default.String("MEMORY_ONLY")
+  @Default.String("MEMORY_AND_DISK")
   String getStorageLevel();
 
   void setStorageLevel(String storageLevel);
