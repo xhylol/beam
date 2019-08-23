@@ -113,7 +113,6 @@ public final class SparkContextFactory {
       conf.set("spark.hadoop.fs.default.name",contextOptions.getFileSystem());
       conf.set("spark.executor.instances","4");
       conf.set("spark.executor.memory","52G");
-      conf.set("spark.executor.cores","16");
       return new JavaSparkContext(conf);
     }
   }
