@@ -111,6 +111,9 @@ public final class SparkContextFactory {
       conf.set("spark.kryo.registrator", SparkRunnerKryoRegistrator.class.getName());
       // specify the path to upload the spark lib and conf shared in spark cluster 
       conf.set("spark.hadoop.fs.default.name",contextOptions.getFileSystem());
+      conf.set("spark.executor.instances","4");
+      conf.set("spark.executor.memory","52G");
+      conf.set("spark.executor.cores","16");
       return new JavaSparkContext(conf);
     }
   }
