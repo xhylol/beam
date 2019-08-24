@@ -123,14 +123,14 @@ public class DataStreams {
     public void write(byte[] b, int offset, int length) throws IOException {
       int spaceRemaining = maximumChunkSize - output.size();
       // Fill the first partially filled buffer.
-      if (length > spaceRemaining) {
+      if (length >= spaceRemaining) {
         output.write(b, offset, spaceRemaining);
         offset += spaceRemaining;
         length -= spaceRemaining;
         internalFlush();
       }
       // Fill buffers completely.
-      while (length > maximumChunkSize) {
+      while (length >= maximumChunkSize) {
         output.write(b, offset, maximumChunkSize);
         offset += maximumChunkSize;
         length -= maximumChunkSize;
