@@ -86,7 +86,7 @@ class HdfsUploader(filesystemio.Uploader):
     self._handle = self._handle_context.__enter__()
 
   def put(self, data):
-    self._handle.write(data)
+    self._handle.write(data.tobytes())
 
   def finish(self):
     self._handle.__exit__(None, None, None)

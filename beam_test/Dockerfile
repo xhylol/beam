@@ -23,11 +23,9 @@ ENV JAVA_HOME /usr/lib/jvm/java-1.8.0-openjdk-amd64/
 ENV PATH $PATH:/ml/hadoop-current/bin:/ml/hadoop-current/sbin
 ENV LD_LIBRARY_PATH $LD_LIBRARY_PATH:${JAVA_HOME}/jre/lib/amd64/server
 
-RUN apt-get update && \
+RUN apt-get update -o Acquire::http::proxy="http://127.0.0.1:8118" && \
     apt-get install -y -o Acquire::http::proxy="http://127.0.0.1:8118" \
                         openjdk-8-jre \
                         openjdk-8-jdk 
 
-RUN cat /ml/hosts >> /etc/hosts
-RUN rm /ml/hosts
 ENTRYPOINT  ["/entrypoint.sh"] 
