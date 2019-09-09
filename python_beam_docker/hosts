@@ -1,0 +1,168 @@
+127.0.0.1	localhost localhost.localdomain localhost4 localhost4.localdomain4
+::1	localhost localhost.localdomain localhost6 localhost6.localdomain6
+1.1.1.1	emr-as-vpc.ap-southeast-1.aliyuncs.com
+1.1.1.1	emr-as-vpc.cn-shenzhen.aliyuncs.com
+1.1.1.1	emr-as-vpc.cn-qingdao.aliyuncs.com
+
+1.1.1.1	emr-as-vpc.cn-shanghai.aliyuncs.com
+1.1.1.1	emr-as-vpc.cn-hongkong.aliyuncs.com
+1.1.1.1	emr-as-vpc.us-west-1.aliyuncs.com
+1.1.1.1	emr-as-vpc.cn-hangzhou.aliyuncs.com
+1.1.1.1	emr-as-vpc.ap-southeast-2.aliyuncs.com
+1.1.1.1	emr-as-vpc.me-east-1.aliyuncs.com
+1.1.1.1	emr-as-vpc.eu-central-1.aliyuncs.com
+1.1.1.1	emr-as-vpc.ap-northeast-1.aliyuncs.com
+1.1.1.1	emr-as-vpc.cn-zhangjiakou.aliyuncs.com
+1.1.1.1	emr-as-vpc.ap-southeast-3.aliyuncs.com
+1.1.1.1	emr-as-vpc.cn-huhehaote.aliyuncs.com
+1.1.1.1	emr-as-vpc.us-east-1.aliyuncs.com
+1.1.1.1	emr-as-vpc.ap-south-1.aliyuncs.com
+
+1.1.1.1	emr-as.ap-southeast-1.aliyuncs.com
+1.1.1.1	emr-as.cn-shenzhen.aliyuncs.com
+1.1.1.1	emr-as.cn-qingdao.aliyuncs.com
+
+1.1.1.1	emr-as.cn-shanghai.aliyuncs.com
+1.1.1.1	emr-as.cn-hongkong.aliyuncs.com
+1.1.1.1	emr-as.us-west-1.aliyuncs.com
+1.1.1.1	emr-as.cn-hangzhou.aliyuncs.com
+1.1.1.1	emr-as.ap-southeast-2.aliyuncs.com
+1.1.1.1	emr-as.me-east-1.aliyuncs.com
+1.1.1.1	emr-as.eu-central-1.aliyuncs.com
+1.1.1.1	emr-as.ap-northeast-1.aliyuncs.com
+1.1.1.1	emr-as.cn-zhangjiakou.aliyuncs.com
+1.1.1.1	emr-as.ap-southeast-3.aliyuncs.com
+1.1.1.1	emr-as.cn-huhehaote.aliyuncs.com
+1.1.1.1	emr-as.us-east-1.aliyuncs.com
+1.1.1.1	emr-as.ap-south-1.aliyuncs.com
+1.1.1.1	emr-as-vpc.cn-chengdu.aliyuncs.com
+1.1.1.1	emr-as-vpc.ap-southeast-5.aliyuncs.com
+
+1.1.1.1	emr-as.cn-chengdu.aliyuncs.com
+1.1.1.1	emr-as.ap-southeast-5.aliyuncs.com
+1.1.1.1	emr-as-vpc.ap-southeast-1.aliyuncs.com
+1.1.1.1	emr-as-vpc.cn-shenzhen.aliyuncs.com
+1.1.1.1	emr-as-vpc.cn-qingdao.aliyuncs.com
+1.1.1.1	emr-as-vpc.cn-shanghai.aliyuncs.com
+1.1.1.1	emr-as-vpc.cn-hongkong.aliyuncs.com
+1.1.1.1	emr-as-vpc.us-west-1.aliyuncs.com
+1.1.1.1	emr-as-vpc.cn-hangzhou.aliyuncs.com
+1.1.1.1	emr-as-vpc.ap-southeast-2.aliyuncs.com
+1.1.1.1	emr-as-vpc.me-east-1.aliyuncs.com
+1.1.1.1	emr-as-vpc.eu-central-1.aliyuncs.com
+1.1.1.1	emr-as-vpc.ap-northeast-1.aliyuncs.com
+1.1.1.1	emr-as-vpc.cn-zhangjiakou.aliyuncs.com
+1.1.1.1	emr-as-vpc.ap-southeast-3.aliyuncs.com
+1.1.1.1	emr-as-vpc.cn-huhehaote.aliyuncs.com
+1.1.1.1	emr-as-vpc.us-east-1.aliyuncs.com
+1.1.1.1	emr-as-vpc.ap-south-1.aliyuncs.com
+1.1.1.1	emr-as-vpc.cn-chengdu.aliyuncs.com
+1.1.1.1	emr-as-vpc.ap-southeast-5.aliyuncs.com
+
+1.1.1.1	emr-as.ap-southeast-1.aliyuncs.com
+1.1.1.1	emr-as.cn-shenzhen.aliyuncs.com
+1.1.1.1	emr-as.cn-qingdao.aliyuncs.com
+1.1.1.1	emr-as.cn-shanghai.aliyuncs.com
+1.1.1.1	emr-as.cn-hongkong.aliyuncs.com
+1.1.1.1	emr-as.us-west-1.aliyuncs.com
+1.1.1.1	emr-as.cn-hangzhou.aliyuncs.com
+1.1.1.1	emr-as.ap-southeast-2.aliyuncs.com
+1.1.1.1	emr-as.me-east-1.aliyuncs.com
+1.1.1.1	emr-as.eu-central-1.aliyuncs.com
+1.1.1.1	emr-as.ap-northeast-1.aliyuncs.com
+1.1.1.1	emr-as.cn-zhangjiakou.aliyuncs.com
+1.1.1.1	emr-as.ap-southeast-3.aliyuncs.com
+1.1.1.1	emr-as.cn-huhehaote.aliyuncs.com
+1.1.1.1	emr-as.us-east-1.aliyuncs.com
+1.1.1.1	emr-as.ap-south-1.aliyuncs.com
+1.1.1.1	emr-as.cn-chengdu.aliyuncs.com
+1.1.1.1	emr-as.ap-southeast-5.aliyuncs.com
+
+1.1.1.1	emr-as-vpc.ap-southeast-1.aliyuncs.com
+1.1.1.1	emr-as-vpc.cn-shenzhen.aliyuncs.com
+1.1.1.1	emr-as-vpc.cn-qingdao.aliyuncs.com
+1.1.1.1	emr-as-vpc.cn-shanghai.aliyuncs.com
+1.1.1.1	emr-as-vpc.cn-hongkong.aliyuncs.com
+1.1.1.1	emr-as-vpc.us-west-1.aliyuncs.com
+1.1.1.1	emr-as-vpc.cn-hangzhou.aliyuncs.com
+1.1.1.1	emr-as-vpc.ap-southeast-2.aliyuncs.com
+1.1.1.1	emr-as-vpc.me-east-1.aliyuncs.com
+1.1.1.1	emr-as-vpc.eu-central-1.aliyuncs.com
+1.1.1.1	emr-as-vpc.ap-northeast-1.aliyuncs.com
+1.1.1.1	emr-as-vpc.cn-zhangjiakou.aliyuncs.com
+1.1.1.1	emr-as-vpc.ap-southeast-3.aliyuncs.com
+1.1.1.1	emr-as-vpc.cn-huhehaote.aliyuncs.com
+1.1.1.1	emr-as-vpc.us-east-1.aliyuncs.com
+1.1.1.1	emr-as-vpc.ap-south-1.aliyuncs.com
+1.1.1.1	emr-as-vpc.cn-chengdu.aliyuncs.com
+1.1.1.1	emr-as-vpc.ap-southeast-5.aliyuncs.com
+
+1.1.1.1	emr-as.ap-southeast-1.aliyuncs.com
+1.1.1.1	emr-as.cn-shenzhen.aliyuncs.com
+1.1.1.1	emr-as.cn-qingdao.aliyuncs.com
+1.1.1.1	emr-as.cn-shanghai.aliyuncs.com
+1.1.1.1	emr-as.cn-hongkong.aliyuncs.com
+1.1.1.1	emr-as.us-west-1.aliyuncs.com
+1.1.1.1	emr-as.cn-hangzhou.aliyuncs.com
+1.1.1.1	emr-as.ap-southeast-2.aliyuncs.com
+1.1.1.1	emr-as.me-east-1.aliyuncs.com
+1.1.1.1	emr-as.eu-central-1.aliyuncs.com
+1.1.1.1	emr-as.ap-northeast-1.aliyuncs.com
+1.1.1.1	emr-as.cn-zhangjiakou.aliyuncs.com
+1.1.1.1	emr-as.ap-southeast-3.aliyuncs.com
+1.1.1.1	emr-as.cn-huhehaote.aliyuncs.com
+1.1.1.1	emr-as.us-east-1.aliyuncs.com
+1.1.1.1	emr-as.ap-south-1.aliyuncs.com
+1.1.1.1	emr-as.cn-chengdu.aliyuncs.com
+1.1.1.1	emr-as.ap-southeast-5.aliyuncs.com
+
+
+#start add cluster host of cluster 66298,Tue Feb 26 14:32:19 CST 2019
+172.17.117.204  emr-worker-1.cluster-66298 emr-worker-1 emr-header-2 iZ2ze46125tswrtifvm48bZ
+172.17.117.205  emr-worker-2.cluster-66298 emr-worker-2 emr-header-3 iZ2ze46125tswrtifvm489Z
+172.17.117.208  emr-worker-45.cluster-66298 emr-worker-45 iZ2ze65jsm55fjhw9gmyslZ
+172.17.117.209  emr-worker-46.cluster-66298 emr-worker-46 iZ2ze65jsm55fjhw9gmysmZ
+172.17.117.203  emr-header-1.cluster-66298 emr-header-1 iZ2zebgky7baa09ohev7ivZ
+#end add cluster host
+
+
+172.17.139.115 resys.script.297
+
+
+1.1.1.1   emr-as-vpc.ap-southeast-1.aliyuncs.com
+1.1.1.1   emr-as-vpc.cn-shenzhen.aliyuncs.com
+1.1.1.1   emr-as-vpc.cn-qingdao.aliyuncs.com
+1.1.1.1   emr-as-vpc.cn-shanghai.aliyuncs.com
+1.1.1.1   emr-as-vpc.cn-hongkong.aliyuncs.com
+1.1.1.1   emr-as-vpc.us-west-1.aliyuncs.com
+1.1.1.1   emr-as-vpc.cn-hangzhou.aliyuncs.com
+1.1.1.1   emr-as-vpc.ap-southeast-2.aliyuncs.com
+1.1.1.1   emr-as-vpc.me-east-1.aliyuncs.com
+1.1.1.1   emr-as-vpc.eu-central-1.aliyuncs.com
+1.1.1.1   emr-as-vpc.ap-northeast-1.aliyuncs.com
+1.1.1.1   emr-as-vpc.cn-zhangjiakou.aliyuncs.com
+1.1.1.1   emr-as-vpc.ap-southeast-3.aliyuncs.com
+1.1.1.1   emr-as-vpc.cn-huhehaote.aliyuncs.com
+1.1.1.1   emr-as-vpc.us-east-1.aliyuncs.com
+1.1.1.1   emr-as-vpc.ap-south-1.aliyuncs.com
+1.1.1.1   emr-as-vpc.cn-chengdu.aliyuncs.com
+1.1.1.1   emr-as-vpc.ap-southeast-5.aliyuncs.com
+
+1.1.1.1   emr-as.ap-southeast-1.aliyuncs.com
+1.1.1.1   emr-as.cn-shenzhen.aliyuncs.com
+1.1.1.1   emr-as.cn-qingdao.aliyuncs.com
+1.1.1.1   emr-as.cn-shanghai.aliyuncs.com
+1.1.1.1   emr-as.cn-hongkong.aliyuncs.com
+1.1.1.1   emr-as.us-west-1.aliyuncs.com
+1.1.1.1   emr-as.cn-hangzhou.aliyuncs.com
+1.1.1.1   emr-as.ap-southeast-2.aliyuncs.com
+1.1.1.1   emr-as.me-east-1.aliyuncs.com
+1.1.1.1   emr-as.eu-central-1.aliyuncs.com
+1.1.1.1   emr-as.ap-northeast-1.aliyuncs.com
+1.1.1.1   emr-as.cn-zhangjiakou.aliyuncs.com
+1.1.1.1   emr-as.ap-southeast-3.aliyuncs.com
+1.1.1.1   emr-as.cn-huhehaote.aliyuncs.com
+1.1.1.1   emr-as.us-east-1.aliyuncs.com
+1.1.1.1   emr-as.ap-south-1.aliyuncs.com
+1.1.1.1   emr-as.cn-chengdu.aliyuncs.com
+1.1.1.1   emr-as.ap-southeast-5.aliyuncs.com
